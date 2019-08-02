@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="todo-update.css">
+</head>
+
+<body>
+    <div>
+        <input type="text" id="todo-input" class="input-box" placeholder="Add a TODO" id="search-box">
+    </div>
+    <div class="action-btn">
+        <button id="open-to-in">In-Progress</button>
+        <button id="in-to-complete">Completed</button>
+    </div>
+    
+    <div class="parent-wrapper">
+        <ul id="open-items">
+            
+        </ul>
+
+
+        <ul id="inprogress-items">
+           
+        </ul>
+
+        <ul id="completed-items">
+            
+        </ul>
+    </div>
+    <br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+    <script src="./todo-update.js"></script>
+</body>
+
+</html>
